@@ -1,0 +1,17 @@
+.navbar {
+    background-color: rgba(63, 64, 75, 1);
+    backdrop-filter: blur(2px);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: .15s;
+}
+
+.fixed-header {
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+    background-color: rgba(63, 64, 75, 0.9);
+    backdrop-filter: blur(2px);
+    backdrop-filter: saturate(10);
+  }
+
+
